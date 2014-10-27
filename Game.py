@@ -46,3 +46,7 @@ class king(checker):
           print ("Incorrect Move. Loss of Turn")
     else:
       print ("Incorrect Move. Loss of Turn")
+  def check_king(checker):
+    if checker.y > 8:
+      checker = king(checker.team, checker.x, checker.y)
+      checker.y = checker.y - 1
