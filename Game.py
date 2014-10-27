@@ -1,15 +1,29 @@
 from random import randint
 
 #Add Classes for Game Pieces
-class checker:
-  def __init__(self,pos):
-    self.pos = [pos[0],pos[1]]# its a list x and y pos based on id
-    self.gamewin = game()
-    self.uid = pos[0]
-  def move():
-    game.checkwin(self.gamewin, self.pos,self.uid)
-    
-class game:
-  def check_win(self, pos, uid):
-    pass
-    
+class checker(object):
+  def __init__(self,x,y):
+    self.x = x
+    self.y = y
+  def move(move):
+    y = y+1
+    if move == "left":
+      x = x+1
+    elif move == "right":
+      x = x-1
+    else:
+      print ("Incorrect Move. Loss of Turn")
+class king(checker):
+  def move(up,side):
+    if up == "up":
+      y = y+1
+    elif up == "down":
+      y = y-1
+    else:
+      print ("Incorrect Move. Loss of Turn")
+    if move == "left":
+      x = x+1
+    elif move == "right":
+      x = x-1
+    else:
+      print ("Incorrect Move. Loss of Turn")
