@@ -83,6 +83,5 @@ user_checkers = [red1, red2, red3, red4, red5, red6, red7, red8, red9, red10, re
 cpu_checkers = [black1, black2, black3, black4, black5, black6, black7, black8, black9, black10, black11, black12]
 
 #Game
-game = true
+game = True
 while game:
-  
