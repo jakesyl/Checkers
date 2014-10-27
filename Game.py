@@ -10,14 +10,14 @@ class checker(object):
     y = y+1
     if move == "left":
       x = x+1
-        if x > 8:
-          x = x-1
-          print ("Incorrect Move. Loss of Turn")
+      if x > 8:
+        x = x-1
+        print ("Incorrect Move. Loss of Turn")
     elif move == "right":
       x = x-1
-        if x < 0:
-          x = x + 1
-          print ("Incorrect Move. Loss of Turn")
+      if x < 0:
+        x = x + 1
+        print ("Incorrect Move. Loss of Turn")
     else:
       print ("Incorrect Move. Loss of Turn")
 class king(checker):
@@ -46,7 +46,7 @@ class king(checker):
           print ("Incorrect Move. Loss of Turn")
     else:
       print ("Incorrect Move. Loss of Turn")
-  def check_king(checker):
-    if checker.y > 8:
-      checker = king(checker.team, checker.x, checker.y)
-      checker.y = checker.y - 1
+def check_king(checker):
+   if checker.y > 8:
+     checker = king(checker.team, checker.x, checker.y)
+     checker.y = checker.y - 1
