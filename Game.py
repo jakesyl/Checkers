@@ -53,6 +53,7 @@ def check_king(checker):
 red = []
 #Adding Checkers
 #USE ARRAYS
+#make a for
 red.append(checker("red", 2, 1))
 red.append(checker("red", 4, 1))
 red.append(checker("red", 6, 1))
@@ -66,16 +67,18 @@ red.append(checker("red", 4, 3))
 red.append(checker("red", 6, 3))
 red.append(checker("red", 8, 3))
 
-black1 = checker("black", 1, 8)
-black2 = checker("black", 3, 8)
-black3 = checker("black", 5, 8)
-black4 = checker("black", 7, 8)
-black5 = checker("black", 2, 7)
-black6 = checker("black", 4, 7)
-black7 = checker("black", 6, 7)
-black8 = checker("black", 8, 7)
-black9 = checker("black", 1, 6)
-black10 = checker("black", 3, 6)
+black = []
+
+black.append(checker("black", 1, 8)
+black.append(checker("black", 3, 8)
+black.append(checker("black", 5, 8)
+black.append(checker("black", 7, 8)
+black.append(checker("black", 2, 7)
+black.append(checker("black", 4, 7)
+black.append(checker("black", 6, 7)
+black.append(checker("black", 8, 7)
+black.append(checker("black", 1, 6)
+black.append(checker("black", 3, 6)
 black11 = checker("black", 5, 6)
 black12 = checker("black", 7, 6)
 
