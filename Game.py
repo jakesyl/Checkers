@@ -50,35 +50,31 @@ def check_king(checker):
    if checker.y > 8:
      checker = king(checker.team, checker.x, checker.y)
      checker.y = checker.y - 1
-red = []
+
 #Adding Checkers
-#USE ARRAYS
-#make a for
-red.append(checker("red", 2, 1))
-red.append(checker("red", 4, 1))
-red.append(checker("red", 6, 1))
-red.append(checker("red", 8, 1))
-red.append(checker("red", 1, 2))
-red.append(checker("red", 3, 2))
-red.append(checker("red", 5, 2))
-red.append(checker("red", 7, 2))
-red.append(checker("red", 2, 3))
-red.append(checker("red", 4, 3))
-red.append(checker("red", 6, 3))
-red.append(checker("red", 8, 3))
+red1 = checker("red", 2, 1)
+red2 = checker("red", 4, 1)
+red3 = checker("red", 6, 1)
+red4 = checker("red", 8, 1)
+red5 = checker("red", 1, 2)
+red6 = checker("red", 3, 2)
+red7 = checker("red", 5, 2)
+red8 = checker("red", 7, 2)
+red9 = checker("red", 2, 3)
+red10 = checker("red", 4, 3)
+red11 = checker("red", 6, 3)
+red12 = checker("red", 8, 3)
 
-black = []
-
-black.append(checker("black", 1, 8)
-black.append(checker("black", 3, 8)
-black.append(checker("black", 5, 8)
-black.append(checker("black", 7, 8)
-black.append(checker("black", 2, 7)
-black.append(checker("black", 4, 7)
-black.append(checker("black", 6, 7)
-black.append(checker("black", 8, 7)
-black.append(checker("black", 1, 6)
-black.append(checker("black", 3, 6)
+black1 = checker("black", 1, 8)
+black2 = checker("black", 3, 8)
+black3 = checker("black", 5, 8)
+black4 = checker("black", 7, 8)
+black5 = checker("black", 2, 7)
+black6 = checker("black", 4, 7)
+black7 = checker("black", 6, 7)
+black8 = checker("black", 8, 7)
+black9 = checker("black", 1, 6)
+black10 = checker("black", 3, 6)
 black11 = checker("black", 5, 6)
 black12 = checker("black", 7, 6)
 
@@ -93,3 +89,4 @@ def user_move(up, side):
 #Game
 game = True
 while game:
+  pass
